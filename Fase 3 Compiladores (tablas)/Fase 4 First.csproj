@@ -49,11 +49,11 @@
     <Compile Include="Acciones.cs" />
     <Compile Include="Analisis.cs" />
     <Compile Include="tablaTokenClass.cs" />
-    <Compile Include="Form1.cs">
+    <Compile Include="Fase 4.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Fase 4.Designer.cs">
+      <DependentUpon>Fase 4.cs</DependentUpon>
     </Compile>
     <Compile Include="tokenoperadores.cs" />
     <Compile Include="Program.cs" />
@@ -61,8 +61,8 @@
     <Compile Include="NT.cs" />
     <Compile Include="produccionesT.cs" />
     <Compile Include="Dtoken.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="Fase 4.resx">
+      <DependentUpon>Fase 4.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
