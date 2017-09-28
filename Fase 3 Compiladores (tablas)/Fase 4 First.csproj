@@ -32,6 +32,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>if_anonymous_395266.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -100,6 +103,7 @@
     <None Include="Resources\Icons8-Ios7-Logos-Register-Editor.ico" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="if_anonymous_395266.ico" />
     <Content Include="Resources\anonymous-logo_318-85979.jpg" />
     <Content Include="Resources\if_17_330399.png" />
     <Content Include="Resources\if_anonymous_395266.ico" />
