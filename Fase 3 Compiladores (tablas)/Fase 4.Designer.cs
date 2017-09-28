@@ -44,18 +44,18 @@
             this.Asosiatividad = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.noterminalesdg = new System.Windows.Forms.DataGridView();
-            this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.dproductions = new System.Windows.Forms.DataGridView();
-            this.btnGenerar = new System.Windows.Forms.Button();
-            this.btnSave = new System.Windows.Forms.Button();
             this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.dproductions = new System.Windows.Forms.DataGridView();
             this.dataGridViewTextBoxColumn5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.btnGenerar = new System.Windows.Forms.Button();
+            this.btnSave = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             this.tabresultados.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -83,29 +83,33 @@
             // 
             // cargarArchivoToolStripMenuItem
             // 
+            this.cargarArchivoToolStripMenuItem.Image = global::Fase_3_Compiladores__tablas_.Resource1.if_file_documents_09_854153;
             this.cargarArchivoToolStripMenuItem.Name = "cargarArchivoToolStripMenuItem";
-            this.cargarArchivoToolStripMenuItem.Size = new System.Drawing.Size(111, 21);
+            this.cargarArchivoToolStripMenuItem.Size = new System.Drawing.Size(127, 21);
             this.cargarArchivoToolStripMenuItem.Text = "Cargar Archivo";
             this.cargarArchivoToolStripMenuItem.Click += new System.EventHandler(this.cARGARDOCUMENTOToolStripMenuItem_Click);
             // 
             // analizarToolStripMenuItem
             // 
+            this.analizarToolStripMenuItem.Image = global::Fase_3_Compiladores__tablas_.Resource1.if_magnifier_data_532758;
             this.analizarToolStripMenuItem.Name = "analizarToolStripMenuItem";
-            this.analizarToolStripMenuItem.Size = new System.Drawing.Size(70, 21);
+            this.analizarToolStripMenuItem.Size = new System.Drawing.Size(86, 21);
             this.analizarToolStripMenuItem.Text = "Analizar";
             this.analizarToolStripMenuItem.Click += new System.EventHandler(this.aNALIZARToolStripMenuItem_Click);
             // 
             // guardarToolStripMenuItem
             // 
+            this.guardarToolStripMenuItem.Image = global::Fase_3_Compiladores__tablas_.Resource1.if_file_documents_11_854152;
             this.guardarToolStripMenuItem.Name = "guardarToolStripMenuItem";
-            this.guardarToolStripMenuItem.Size = new System.Drawing.Size(69, 21);
+            this.guardarToolStripMenuItem.Size = new System.Drawing.Size(85, 21);
             this.guardarToolStripMenuItem.Text = "Guardar";
             this.guardarToolStripMenuItem.Click += new System.EventHandler(this.guardarToolStripMenuItem_Click);
             // 
             // salirToolStripMenuItem
             // 
+            this.salirToolStripMenuItem.Image = global::Fase_3_Compiladores__tablas_.Resource1.if_17_330399;
             this.salirToolStripMenuItem.Name = "salirToolStripMenuItem";
-            this.salirToolStripMenuItem.Size = new System.Drawing.Size(47, 21);
+            this.salirToolStripMenuItem.Size = new System.Drawing.Size(63, 21);
             this.salirToolStripMenuItem.Text = "Salir";
             this.salirToolStripMenuItem.Click += new System.EventHandler(this.salirToolStripMenuItem_Click);
             // 
@@ -130,7 +134,7 @@
             this.tabresultados.Location = new System.Drawing.Point(624, 27);
             this.tabresultados.Name = "tabresultados";
             this.tabresultados.SelectedIndex = 0;
-            this.tabresultados.Size = new System.Drawing.Size(452, 405);
+            this.tabresultados.Size = new System.Drawing.Size(617, 405);
             this.tabresultados.TabIndex = 6;
             // 
             // tabPage1
@@ -140,7 +144,7 @@
             this.tabPage1.Location = new System.Drawing.Point(4, 26);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(444, 375);
+            this.tabPage1.Size = new System.Drawing.Size(609, 375);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Tabla Tokens";
             // 
@@ -162,7 +166,7 @@
             this.tokenstabla.Name = "tokenstabla";
             this.tokenstabla.RowHeadersVisible = false;
             this.tokenstabla.RowTemplate.Height = 24;
-            this.tokenstabla.Size = new System.Drawing.Size(442, 365);
+            this.tokenstabla.Size = new System.Drawing.Size(572, 365);
             this.tokenstabla.TabIndex = 4;
             // 
             // Num_Token
@@ -192,7 +196,7 @@
             this.tabPage2.Location = new System.Drawing.Point(4, 26);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(444, 375);
+            this.tabPage2.Size = new System.Drawing.Size(609, 375);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Tabla No Terminal";
             // 
@@ -213,69 +217,8 @@
             this.noterminalesdg.Name = "noterminalesdg";
             this.noterminalesdg.RowHeadersVisible = false;
             this.noterminalesdg.RowTemplate.Height = 24;
-            this.noterminalesdg.Size = new System.Drawing.Size(442, 287);
+            this.noterminalesdg.Size = new System.Drawing.Size(574, 287);
             this.noterminalesdg.TabIndex = 5;
-            // 
-            // tabPage3
-            // 
-            this.tabPage3.BackColor = System.Drawing.Color.Black;
-            this.tabPage3.Controls.Add(this.dproductions);
-            this.tabPage3.Location = new System.Drawing.Point(4, 26);
-            this.tabPage3.Margin = new System.Windows.Forms.Padding(2);
-            this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Padding = new System.Windows.Forms.Padding(2);
-            this.tabPage3.Size = new System.Drawing.Size(444, 375);
-            this.tabPage3.TabIndex = 2;
-            this.tabPage3.Text = "Tabla Producciones";
-            // 
-            // dproductions
-            // 
-            this.dproductions.AllowUserToAddRows = false;
-            this.dproductions.BackgroundColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.dproductions.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dproductions.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.dataGridViewTextBoxColumn5,
-            this.dataGridViewTextBoxColumn6,
-            this.dataGridViewTextBoxColumn7,
-            this.dataGridViewTextBoxColumn8});
-            this.dproductions.EnableHeadersVisualStyles = false;
-            this.dproductions.GridColor = System.Drawing.Color.Blue;
-            this.dproductions.Location = new System.Drawing.Point(4, 4);
-            this.dproductions.Margin = new System.Windows.Forms.Padding(2);
-            this.dproductions.Name = "dproductions";
-            this.dproductions.RowHeadersVisible = false;
-            this.dproductions.RowTemplate.Height = 24;
-            this.dproductions.Size = new System.Drawing.Size(425, 287);
-            this.dproductions.TabIndex = 6;
-            // 
-            // btnGenerar
-            // 
-            this.btnGenerar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.btnGenerar.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btnGenerar.Location = new System.Drawing.Point(1102, 133);
-            this.btnGenerar.Margin = new System.Windows.Forms.Padding(2);
-            this.btnGenerar.Name = "btnGenerar";
-            this.btnGenerar.Size = new System.Drawing.Size(81, 36);
-            this.btnGenerar.TabIndex = 10;
-            this.btnGenerar.Text = "Generar .TOK";
-            this.btnGenerar.UseVisualStyleBackColor = false;
-            this.btnGenerar.Visible = false;
-            this.btnGenerar.Click += new System.EventHandler(this.btnGenerar_Click_1);
-            // 
-            // btnSave
-            // 
-            this.btnSave.AccessibleRole = System.Windows.Forms.AccessibleRole.Link;
-            this.btnSave.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.btnSave.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btnSave.Location = new System.Drawing.Point(1102, 93);
-            this.btnSave.Margin = new System.Windows.Forms.Padding(2);
-            this.btnSave.Name = "btnSave";
-            this.btnSave.Size = new System.Drawing.Size(81, 36);
-            this.btnSave.TabIndex = 9;
-            this.btnSave.Text = "Generar .DAT";
-            this.btnSave.UseVisualStyleBackColor = false;
-            this.btnSave.Visible = false;
-            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
             // dataGridViewTextBoxColumn1
             // 
@@ -297,6 +240,38 @@
             this.dataGridViewTextBoxColumn4.HeaderText = "First";
             this.dataGridViewTextBoxColumn4.Name = "dataGridViewTextBoxColumn4";
             // 
+            // tabPage3
+            // 
+            this.tabPage3.BackColor = System.Drawing.Color.Black;
+            this.tabPage3.Controls.Add(this.dproductions);
+            this.tabPage3.Location = new System.Drawing.Point(4, 26);
+            this.tabPage3.Margin = new System.Windows.Forms.Padding(2);
+            this.tabPage3.Name = "tabPage3";
+            this.tabPage3.Padding = new System.Windows.Forms.Padding(2);
+            this.tabPage3.Size = new System.Drawing.Size(609, 375);
+            this.tabPage3.TabIndex = 2;
+            this.tabPage3.Text = "Tabla Producciones";
+            // 
+            // dproductions
+            // 
+            this.dproductions.AllowUserToAddRows = false;
+            this.dproductions.BackgroundColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.dproductions.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dproductions.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dataGridViewTextBoxColumn5,
+            this.dataGridViewTextBoxColumn6,
+            this.dataGridViewTextBoxColumn7,
+            this.dataGridViewTextBoxColumn8});
+            this.dproductions.EnableHeadersVisualStyles = false;
+            this.dproductions.GridColor = System.Drawing.Color.Blue;
+            this.dproductions.Location = new System.Drawing.Point(4, 4);
+            this.dproductions.Margin = new System.Windows.Forms.Padding(2);
+            this.dproductions.Name = "dproductions";
+            this.dproductions.RowHeadersVisible = false;
+            this.dproductions.RowTemplate.Height = 24;
+            this.dproductions.Size = new System.Drawing.Size(585, 287);
+            this.dproductions.TabIndex = 6;
+            // 
             // dataGridViewTextBoxColumn5
             // 
             this.dataGridViewTextBoxColumn5.HeaderText = "Produccion";
@@ -317,12 +292,41 @@
             this.dataGridViewTextBoxColumn8.HeaderText = "Elementos";
             this.dataGridViewTextBoxColumn8.Name = "dataGridViewTextBoxColumn8";
             // 
+            // btnGenerar
+            // 
+            this.btnGenerar.BackColor = System.Drawing.Color.SteelBlue;
+            this.btnGenerar.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.btnGenerar.Location = new System.Drawing.Point(134, 448);
+            this.btnGenerar.Margin = new System.Windows.Forms.Padding(2);
+            this.btnGenerar.Name = "btnGenerar";
+            this.btnGenerar.Size = new System.Drawing.Size(81, 36);
+            this.btnGenerar.TabIndex = 10;
+            this.btnGenerar.Text = "Generar .TOK";
+            this.btnGenerar.UseVisualStyleBackColor = false;
+            this.btnGenerar.Visible = false;
+            this.btnGenerar.Click += new System.EventHandler(this.btnGenerar_Click_1);
+            // 
+            // btnSave
+            // 
+            this.btnSave.AccessibleRole = System.Windows.Forms.AccessibleRole.Link;
+            this.btnSave.BackColor = System.Drawing.Color.SteelBlue;
+            this.btnSave.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.btnSave.Location = new System.Drawing.Point(11, 448);
+            this.btnSave.Margin = new System.Windows.Forms.Padding(2);
+            this.btnSave.Name = "btnSave";
+            this.btnSave.Size = new System.Drawing.Size(81, 36);
+            this.btnSave.TabIndex = 9;
+            this.btnSave.Text = "Generar .DAT";
+            this.btnSave.UseVisualStyleBackColor = false;
+            this.btnSave.Visible = false;
+            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
+            // 
             // Compilador
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.ClientSize = new System.Drawing.Size(1253, 458);
+            this.ClientSize = new System.Drawing.Size(1253, 493);
             this.Controls.Add(this.btnGenerar);
             this.Controls.Add(this.btnSave);
             this.Controls.Add(this.tabresultados);

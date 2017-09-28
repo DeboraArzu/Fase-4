@@ -48,6 +48,11 @@
   <ItemGroup>
     <Compile Include="Acciones.cs" />
     <Compile Include="Analisis.cs" />
+    <Compile Include="Resource1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resource1.resx</DependentUpon>
+    </Compile>
     <Compile Include="tablaTokenClass.cs" />
     <Compile Include="Fase 4.cs">
       <SubType>Form</SubType>
@@ -74,6 +79,10 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Resource1.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource1.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -89,6 +98,14 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Icons8-Ios7-Logos-Register-Editor.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\anonymous-logo_318-85979.jpg" />
+    <Content Include="Resources\if_17_330399.png" />
+    <Content Include="Resources\if_anonymous_395266.ico" />
+    <Content Include="Resources\if_file_documents-09_854153.png" />
+    <Content Include="Resources\if_file_documents-11_854152.png" />
+    <Content Include="Resources\if_magnifier-data_532758.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
